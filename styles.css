@@ -1,14 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
 .bg_image{
-    background-image: url(images/donation1.jpg);
-    width: 1440px;
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1525px;
     height: 669px;
-    left: 0px;
-    top: 0px;
 }
 .donate_now{
-    margin: auto;
-  width: 50%;
+    
+    position: absolute;
+    width: 826px;
+    height: 320px;
+    left: 350px;
+    top: 174px;
+}
+.let_help{
+    font-size: 65px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    line-height: 79px;
+}
+.human-being{
+    text-align: center;
+    color: white;
+}
+.donate_btn{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FF5959;
+    position: absolute;
+    gap: 8px;
+    height: 56px;
+    width: 160px;
+    left: 345px;
+    top: 210px;
+    border-radius: 5px;
+}
+.donate_today{
+    position: absolute;
+    width: 300px;
+    height: 54px;
+    left: 600px;
+    top: 740px;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    line-height: 54px;
+}
+.the_people{
+    position: absolute;
+    width: 690px;
+    height: 56px;
+    left: 400px;
+    top: 805px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+.taka_tk{
+    display: flex;
 }
